@@ -1,0 +1,16 @@
+{
+  "name": "countries",
+  "version": "1.0.0",
+  "description": "RESTful API of countries",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  	"express":"*",
+  	"body-parser":"*",
+  	"mongoose":"*"
+  },
+  "author": "Hareen Peiris",
+  "license": "ISC"
+}
