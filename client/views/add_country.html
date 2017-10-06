@@ -1,0 +1,39 @@
+<a href="#!/countries">Back</a>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add Country</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-12">
+        <form ng-submit="addCountry()">
+          <div class="form-group">
+            <label>Country Name</label>
+            <input type="text" ng-model="country.name" class="form-control" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label>Continent</label>
+            <select ng-model="country.continent_name" class="form-control">
+              <option value="Asia">Asia</option>
+              <option value="Africa">Africa</option>
+              <option value="Antartica">Antartica</option>
+              <option value="Europe">Europe</option>
+              <option value="North America">North America</option>
+              <option value="South America">South America</option>
+              <option value="Australia">Australia</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Population</label>
+            <input type="text" class="form-control" ng-model="country.population" placeholder="Population">
+          </div>
+          <div class="form-group">
+            <label>Image URL</label>
+            <input type="text" class="form-control" ng-model="country.map_pic_url" placeholder="Image URL">
+          </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
